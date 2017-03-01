@@ -39,7 +39,7 @@ def user_select():
         if user_input == "help":
             print(", ".join(foods))
         elif user_input not in keyword_set:
-            print('entry incorrect')
+            print('\nEntry incorrect')
         else:
             expiry_calc(foods[user_input])
 
