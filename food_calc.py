@@ -26,7 +26,7 @@ def expiry_calc(item_name):
     today = datetime.date.today()
     aditionalDay = datetime.timedelta(days=item_name)
     newDay = today + aditionalDay
-    print(newDay.strftime('--Expiry: %a, %d/%m/%Y--'))
+    print(newDay.strftime('\n--Expiry: %a, %d/%m/%Y--'))
 
 
 
